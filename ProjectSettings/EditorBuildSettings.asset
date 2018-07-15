@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/spashscreen.unity
+    path: Assets/Scenes/spashscreen.unity
     guid: 265e81b287a6ab54aaf0d229f98936a1
   - enabled: 1
-    path: Assets/game.unity
+    path: Assets/Scenes/game.unity
     guid: 726edda21ef8baf41804f8a22ab8b565
   m_configObjects: {}
