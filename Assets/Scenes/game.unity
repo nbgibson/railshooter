@@ -168,11 +168,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4587324564436336, guid: 4905648a8bfc91c4b9353b39848409dd, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 6.28
+      value: 8.89
       objectReference: {fileID: 0}
     - target: {fileID: 4587324564436336, guid: 4905648a8bfc91c4b9353b39848409dd, type: 2}
       propertyPath: m_LocalPosition.z
-      value: 204.32
+      value: 212.7
       objectReference: {fileID: 0}
     - target: {fileID: 4587324564436336, guid: 4905648a8bfc91c4b9353b39848409dd, type: 2}
       propertyPath: m_LocalRotation.x
@@ -10150,10 +10150,10 @@ MonoBehaviour:
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -10348,6 +10348,7 @@ GameObject:
   - component: {fileID: 1731564245}
   - component: {fileID: 1731564247}
   - component: {fileID: 1731564246}
+  - component: {fileID: 1731564248}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -10413,6 +10414,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1731564244}
   m_CullTransparentMesh: 0
+--- !u!114 &1731564248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1731564244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a88da9cc221ad4e816de2aad0dc524, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1742181350 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1851954894931098, guid: 711f7ae449054bb45806215bacb6a3bf,
@@ -10599,6 +10611,11 @@ Prefab:
       propertyPath: parent
       value: 
       objectReference: {fileID: 737018711}
+    - target: {fileID: 114266387094508456, guid: 944695e876fdd04469bdb97b8315a6d7,
+        type: 2}
+      propertyPath: scorePerHit
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 944695e876fdd04469bdb97b8315a6d7, type: 2}
   m_IsPrefabAsset: 0
