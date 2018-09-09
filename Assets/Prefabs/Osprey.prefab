@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23572812523232500}
   - component: {fileID: 114575719111072516}
   m_Layer: 0
-  m_Name: Ship_05
+  m_Name: Osprey
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,3 +97,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathFX: {fileID: 1785272638012052, guid: 93974115027631840bc3c3b38b4278a5, type: 2}
   parent: {fileID: 4716155575212570, guid: b40687ae595809a4f91e2c13d1871459, type: 2}
+  scorePerHit: 15
+  hits: 10
