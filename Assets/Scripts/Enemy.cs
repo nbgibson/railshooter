@@ -37,8 +37,13 @@ public class Enemy : MonoBehaviour {
 
     private void KillEnemy()
     {
-        GameObject fx = Instantiate(deathFX, transform.position, Quaternion.identity);
+        GameObject fx = (GameObject)Instantiate(deathFX, transform.position, Quaternion.identity);
         fx.transform.parent = parent;
         Destroy(gameObject);
     }
 }
+
+
+//Transform myBrick = Instantiate(brickPrefab, new Vector3(0, 0, 10), Quaternion.identity) as Transform;
+//myBrick.parent = transform;
+
